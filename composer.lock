@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "720f46b046b1b534912fe53552169fde",
+    "hash": "56cd8afcfe81e503552c1bf4372294a4",
     "packages": [
         {
             "name": "Schumix/ChatterBotApi",
@@ -1868,7 +1868,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "ext-mongo": "*"
+        "ext-mongo": "*",
+        "ext-mbstring": "*"
     },
     "platform-dev": []
 }

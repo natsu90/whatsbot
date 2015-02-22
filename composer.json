@@ -25,6 +25,7 @@
 		"Schumix/ChatterBotApi": "dev-master",
 		"armxy/laravel-internal-queue": "dev-master",
 		"ext-mongo": "*",
+		"ext-mbstring": "*",
 		"vlucas/phpdotenv": "~1.1"
 	},
 	"autoload": {
