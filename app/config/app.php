@@ -123,7 +123,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Jenssegers\Mongodb\MongodbServiceProvider',
 		'Armxy\Queue\InternalQueueServiceProvider',
-
+		'Barryvdh\Queue\AsyncServiceProvider',
 	),
 
 	/*

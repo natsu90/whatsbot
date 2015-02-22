@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "56cd8afcfe81e503552c1bf4372294a4",
+    "hash": "e5a25556d3b71726db151642795eac79",
     "packages": [
         {
             "name": "Schumix/ChatterBotApi",
@@ -64,6 +64,52 @@
                 "queue"
             ],
             "time": "2015-02-22 03:06:19"
+        },
+        {
+            "name": "barryvdh/laravel-async-queue",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/natsu90/laravel-async-queue",
+                "reference": "e72849804f95e3f6ce17205824dddf76178c436a"
+            },
+            "require": {
+                "illuminate/console": "4.x",
+                "illuminate/support": "4.x",
+                "php": ">=5.3.0",
+                "symfony/process": "~2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/migrations"
+                ],
+                "psr-4": {
+                    "Barryvdh\\Queue\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                }
+            ],
+            "description": "Async Queue Driver for Laravel (Push to background)",
+            "keywords": [
+                "async",
+                "background",
+                "laravel",
+                "queue"
+            ],
+            "time": "2015-02-22 13:01:32"
         },
         {
             "name": "classpreloader/classpreloader",
@@ -1863,7 +1909,8 @@
     "stability-flags": {
         "mgp25/whatsapi": 20,
         "schumix/chatterbotapi": 20,
-        "armxy/laravel-internal-queue": 20
+        "armxy/laravel-internal-queue": 20,
+        "barryvdh/laravel-async-queue": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

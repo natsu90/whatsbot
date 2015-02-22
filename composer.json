@@ -16,6 +16,10 @@
         {
         	"type": "git",
         	"url": "https://github.com/Derp-com-my/laravel-internal-queue"
+        },
+        {
+        	"type": "git",
+        	"url": "https://github.com/natsu90/laravel-async-queue"
         }
     ],
 	"require": {
@@ -24,6 +28,7 @@
 		"jenssegers/mongodb": "*",
 		"Schumix/ChatterBotApi": "dev-master",
 		"armxy/laravel-internal-queue": "dev-master",
+		"barryvdh/laravel-async-queue": "dev-master",
 		"ext-mongo": "*",
 		"ext-mbstring": "*",
 		"vlucas/phpdotenv": "~1.1"

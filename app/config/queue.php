@@ -15,7 +15,7 @@ return array(
 	|
 	*/
 
-	'default' => 'internal',
+	'default' => 'async',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -65,6 +65,10 @@ return array(
 
 		'internal' => array(
         	'driver' => 'internal',
+    	),
+
+    	'async' => array(
+        	'driver' => 'async',
     	),
 
 	),
