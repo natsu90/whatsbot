@@ -80,7 +80,8 @@ App::down(function()
 
 require app_path().'/filters.php';
 
-Dotenv::load(base_path());
+if (is_file(base_path(). '/.env'))
+    Dotenv::load(base_path());
 
 class WhatsAppBot
 {
