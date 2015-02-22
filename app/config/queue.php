@@ -15,7 +15,7 @@ return array(
 	|
 	*/
 
-	'default' => 'async',
+	'default' => 'internal',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -63,9 +63,9 @@ return array(
 			'queue'  => 'default',
 		),
 
-		'async' => array(
-        	'driver' => 'async',
-        ),
+		'internal' => array(
+        	'driver' => 'internal',
+    	),
 
 	),
 
