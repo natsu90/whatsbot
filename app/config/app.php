@@ -122,8 +122,6 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Jenssegers\Mongodb\MongodbServiceProvider',
-		'Armxy\Queue\InternalQueueServiceProvider',
-		'Barryvdh\Queue\AsyncServiceProvider',
 	),
 
 	/*

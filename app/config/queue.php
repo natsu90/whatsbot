@@ -15,7 +15,7 @@ return array(
 	|
 	*/
 
-	'default' => 'async',
+	'default' => 'iron',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -52,8 +52,8 @@ return array(
 		'iron' => array(
 			'driver'  => 'iron',
 			'host'    => 'mq-aws-us-east-1.iron.io',
-			'token'   => 'your-token',
-			'project' => 'your-project-id',
+			'token'   => getenv('IRON_WORKER_TOKEN'),
+			'project' => getenv('IRON_WORKER_PROJECT_ID'),
 			'queue'   => 'your-queue-name',
 			'encrypt' => true,
 		),
@@ -62,14 +62,6 @@ return array(
 			'driver' => 'redis',
 			'queue'  => 'default',
 		),
-
-		'internal' => array(
-        	'driver' => 'internal',
-    	),
-
-    	'async' => array(
-        	'driver' => 'async',
-    	),
 
 	),
 

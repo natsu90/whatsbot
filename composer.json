@@ -12,26 +12,17 @@
         {
         	"type": "git",
             "url": "https://github.com/natsu90/ChatterBotApiPhp"
-        },
-        {
-        	"type": "git",
-        	"url": "https://github.com/Derp-com-my/laravel-internal-queue"
-        },
-        {
-        	"type": "git",
-        	"url": "https://github.com/natsu90/laravel-async-queue"
         }
     ],
 	"require": {
 		"laravel/framework": "4.2.*",
-		"mgp25/whatsapi": "dev-master#70330961a14db6bf3625e7634b0c3fb3b574bec9",
+		"mgp25/whatsapi": "dev-master",
 		"jenssegers/mongodb": "*",
 		"Schumix/ChatterBotApi": "dev-master",
-		"armxy/laravel-internal-queue": "dev-master",
-		"barryvdh/laravel-async-queue": "dev-master",
 		"ext-mongo": "*",
 		"ext-mbstring": "*",
-		"vlucas/phpdotenv": "~1.1"
+		"vlucas/phpdotenv": "~1.1",
+		"iron-io/laraworker": "dev-master"
 	},
 	"autoload": {
 		"classmap": [

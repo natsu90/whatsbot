@@ -13,3 +13,5 @@
 
 Artisan::add(new WhatsAppStart);
 Artisan::add(new WhatsAppAction);
+Artisan::add(new RunWorker);
+Artisan::add(new UploadWorker);
