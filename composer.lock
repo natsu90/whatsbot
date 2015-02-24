@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "973fb51911874bd4b57c63b5f55b48a7",
+    "hash": "e191d974f0d0526694cad6ab9398f6fb",
     "packages": [
         {
             "name": "Schumix/ChatterBotApi",

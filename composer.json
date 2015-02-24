@@ -23,7 +23,7 @@
 		"ext-mbstring": "*",
 		"vlucas/phpdotenv": "~1.1",
 		"iron-io/laraworker": "dev-master",
-		"guzzlehttp/guzzle": "~5.2"
+		"guzzlehttp/guzzle": "~5.0"
 	},
 	"autoload": {
 		"classmap": [
