@@ -22,7 +22,8 @@
 		"ext-mongo": "*",
 		"ext-mbstring": "*",
 		"vlucas/phpdotenv": "~1.1",
-		"iron-io/laraworker": "dev-master"
+		"iron-io/laraworker": "dev-master",
+		"guzzlehttp/guzzle": "~5.2"
 	},
 	"autoload": {
 		"classmap": [
