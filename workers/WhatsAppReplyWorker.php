@@ -4,6 +4,10 @@ require_once __DIR__ . '/libs/worker_boot.php';
 $payload = decryptPayload(getPayload());
 fire($payload);
 
+use ChatterBotApi\ChatterBotFactory;
+use ChatterBotApi\ChatterBotType;
+use ChatterBotApi\ChatterBotThought;
+
 function fire($payload)
 {
     $msg_id = $payload->msg_id;
